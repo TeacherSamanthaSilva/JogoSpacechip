@@ -11,6 +11,7 @@ class StartGame:
         pygame.init()
         pygame.mixer.init()
         pygame.font.init()
+        pygame.display.set_caption("SpaceShip 13K")
         
         self.display = pygame.display.set_mode([WIDTH,HEIGHT])
         self.scene = "menu"
